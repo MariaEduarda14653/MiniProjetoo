@@ -23,7 +23,7 @@ body {
     margin-left: 350px;
     text-align: center;
     display: inline-block;
-    
+    overflow-y: auto;
     
     
 
@@ -39,6 +39,8 @@ body {
     margin-top: 20px;
     text-align: center;
     display: inline-block;
+    overflow-y: auto;
+    
         
 }
 
