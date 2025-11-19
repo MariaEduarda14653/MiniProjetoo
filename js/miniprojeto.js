@@ -6,12 +6,16 @@ function urgente() {
   urgenteAtivo = true;
   document.getElementById("urgente").style.border = "3px solid black";
   document.getElementById("naoUrgente").style.border = "none";
+
+  adiconartexto();
 }
 
 function naoUrgente() {
   urgenteAtivo = false;
   document.getElementById("naoUrgente").style.border = "3px solid black";
   document.getElementById("urgente").style.border = "none";
+
+  adiconartexto();
 }
 
 function adicionartexto() {
